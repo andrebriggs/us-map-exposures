@@ -4,6 +4,8 @@ from os import path
 import pandas as pd
 import folium
 
+# Based on https://github.com/python-visualization/folium/blob/master/examples/GeoJSON_and_choropleth.ipynb
+
 state_geo = os.path.join(os.path.curdir, 'us-states.json')
 state_exposure = os.path.join(os.path.curdir, 'US_GAEN_STATUS.csv')
 state_data = pd.read_csv(state_exposure)
