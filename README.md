@@ -21,6 +21,9 @@ $ open index.html
 ```
 
 ## Details
-The `US_GAEN_STATUS.csv` file has a scale of 0 to 1 where 0.5 means exposure notifications are "in progress" for that state.
+The `US_GAEN_STATUS.csv` file has a scale of 0 to 1.
+* 0 - Not started
+* 0.5 - In progress
+* 1 - Released
 
 The `us-states.json` file contains the gepgraphy for US states.
