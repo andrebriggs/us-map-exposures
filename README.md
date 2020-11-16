@@ -14,7 +14,7 @@ $ python3 create-map.py
 
 View HTML
 ```console
-$ open GAEN_Exposure_Notificaton_US_States.html
+$ open index.html
 ```
 
 The `US_GAEN_STATUS.csv` file has a scale of 0 to 1 where 0.5 means exposure notifications are "in progress" for that state.

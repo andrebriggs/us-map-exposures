@@ -25,4 +25,4 @@ folium.Choropleth(
 ).add_to(m)
  
 # Save to html
-m.save('GAEN_Exposure_Notificaton_US_States.html')
+m.save('index.html')
